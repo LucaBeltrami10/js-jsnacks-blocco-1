@@ -6,6 +6,8 @@ console.log(ageB)
 
 if( ageA > ageB){
     console.log(ageA)
+} else if (ageB > ageA){
+    console.log(ageB)
 }
 
 
