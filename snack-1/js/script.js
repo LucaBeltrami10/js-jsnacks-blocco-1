@@ -11,7 +11,7 @@ else if (ageB > ageA){
     console.log(ageB);
 }
 else{
-    
+
     console.log("le età sono uguali");
 }
 
