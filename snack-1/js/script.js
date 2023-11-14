@@ -15,5 +15,12 @@ else{
     console.log("le età sono uguali");
 }
 
+let newVarible = 12.1234
+
+console.log( `la variabile numerica è: ${newVarible}`)
+
+
+
+document.getElementById('final-price').innerHTML = `${parseFloat(travelPrice).toFixed(2)}€`
 
 
