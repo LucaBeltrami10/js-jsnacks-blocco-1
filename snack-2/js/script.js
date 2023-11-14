@@ -1,4 +1,4 @@
-let listItemElement = document.createElement('li')
+/* let listItemElement = document.createElement('li')
 let ulElement = document.querySelector('ul')
 
 for (let i=1; i<=6; i++){
@@ -7,8 +7,15 @@ for (let i=1; i<=6; i++){
     ulElement.appendChild(listItemElement)
 }
 
+ */
 
-/* for (let i=1; i<=6; i++){
+for (let i=1; i<=6; i++){
     console.log(i)
-    document.querySelector('ul').innerHTML += `<li> ${i}</li>`
-} */
+    
+    if(i%2 != 0){
+        document.querySelector('ul').innerHTML += `<li class=" cl-green"> ${i}</li>`
+    } else{
+        document.querySelector('ul').innerHTML += `<li class=" cl-yellow"> ${i}</li>`
+    }
+}
+
