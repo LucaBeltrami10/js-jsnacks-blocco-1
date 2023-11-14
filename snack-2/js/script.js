@@ -1,3 +1,5 @@
-let paragraphElement = document.createElement('p')
+let listItemElement = document.createElement('li')
 
-paragraphElement
+for (let i=1; i<=6; i++){
+    
+}
