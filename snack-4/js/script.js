@@ -1,6 +1,8 @@
 
 const numeriUtili = []
 
+console.log(`numeri utili a inizio esercizio (teoricamente nessuno): ${numeriUtili}`)
+
 for (let i=0; i<100; i++){
     console.log(i)
 
@@ -9,4 +11,4 @@ for (let i=0; i<100; i++){
     }
 }
 
-console.log(numeriUtili)
+console.log(`numeri utili a fine esercizio: ${numeriUtili}`)
