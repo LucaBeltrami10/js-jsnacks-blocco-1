@@ -9,13 +9,16 @@ console.log(prova)
 
 /* creo una variabile in cui sommo l'elaborazione del ciclo qui sotto */
 let sum;
+let numToAdd
 
 /* creo ciclo i (7 cicli) in cui */
 for (let i=0; i<7; i++){
     /*variabile numDaSommare = userNumber[i]
     /* sommo  il singolo numero alla variabile somma*/
-    let numDaSommare = userNumber[i]
-    sum += numDaSommare
+    numToAdd = parseInt(userNumber[i])
+    console.log(i)
+    console.log(`numero da sommare ${numToAdd}`)
+    sum = sum + numToAdd
 
 }
 
