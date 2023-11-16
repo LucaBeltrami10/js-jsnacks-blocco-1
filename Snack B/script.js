@@ -16,7 +16,6 @@ for (let i=0; i<7; i++){
     /*variabile numDaSommare = userNumber[i]
     /* sommo  il singolo numero alla variabile somma*/
     numToAdd = parseInt(userNumber[i])
-    console.log(i)
     console.log(`numero da sommare ${numToAdd}`)
     sum = sum + numToAdd
 
