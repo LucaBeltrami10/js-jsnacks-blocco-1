@@ -55,3 +55,5 @@ for (i=0; i<numeroDiCicli; i++){
     }
 }
     
+
+/* commento di risoluzione bug ciclo infinito. è necessario inserire nella condizione true (o larg < min) numero di cicli = 1 così da fermare il ciclo.*/
