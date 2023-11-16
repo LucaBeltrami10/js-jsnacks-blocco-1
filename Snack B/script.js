@@ -4,7 +4,6 @@ console.log(`il numero inserito è: ${userNumber}`);
 
 /* creo una variabile in cui sommo l'elaborazione del ciclo qui sotto */
 let sum;
-let numToAdd;
 
 /* creo ciclo i (7 cicli) in cui */
 for (let i=0; i<7; i++){
