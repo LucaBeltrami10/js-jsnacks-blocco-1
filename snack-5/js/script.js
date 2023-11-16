@@ -11,9 +11,9 @@ let charactersSecondWord = secondWord.length
 console.log(charactersSecondWord)
 
 if(charactersFirstWord > charactersSecondWord){
-    console.log('la prima parola è la più lunga')
+    console.log(`la prima parola è la più lunga: ${firstWord} - ${secondWord}`)
 }else if (charactersFirstWord < charactersSecondWord){
-    console.log('la seconda parola è la più lunga')
+    console.log(`la seconda parola è la più lunga ${secondWord} - ${firstWord}`)
 }else{
     console.log('le parole sono lunghe uguali')
 }
