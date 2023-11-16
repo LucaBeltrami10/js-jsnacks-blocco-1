@@ -4,6 +4,8 @@ console.log(`il numero inserito è: ${userNumber}`);
 
 /* creo una variabile in cui sommo l'elaborazione del ciclo qui sotto */
 let sum = 0;
+/* NB: SE INIZIALIZZO SENZA DARE 0, LA FUNZIONE HA TIPO UNDEFINED. QUANDO AGGIUNTO UN
+NUMERO IL TIPO CHE NE RISULTA è NaN PERCHè NON POSSO SOMMARE TIPI DI VALORI DIFFERENTI */
 
 /* creo ciclo i (7 cicli) in cui */
 for (let i=0; i<7; i++){
