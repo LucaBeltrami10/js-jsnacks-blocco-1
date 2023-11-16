@@ -22,6 +22,7 @@ for (i=0; i<numeroDiCicli; i++){
         numeroDiCicli += 1
         smallerNum *= 2
     } else if(largerNum < smallerNum){
+        console.log(`numero di cili per arrivare al risultato: ${numeroDiCicli - 1}`)
         console.log(`moltiplicando il numero minore per 2, il primo numero che soddisfa la condizione numerominore > numero maggiore è: ${smallerNum}`)
         numeroDiCicli = 1
     }
