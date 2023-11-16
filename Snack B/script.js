@@ -9,13 +9,13 @@ let sum;
 for (let i=0; i<7; i++){
     /*variabile numDaSommare = userNumber[i]
     /* sommo  il singolo numero alla variabile somma*/
-    numToAdd = userNumber[i]
-    console.log(`numero da sommare: ${numToAdd}`)
-    sum += numToAdd
+    numToAdd = parseInt(userNumber[i])
+    console.log(`numero da sommare: ${numToAdd}`, typeof numToAdd, sum)
+    sum = sum + numToAdd
 
 }
 
-console.log(sum)
+console.log(sum, typeof sum)
 
 /* mostro in console il risultato */
 
