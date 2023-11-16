@@ -11,7 +11,7 @@ for (let i=0; i< listaInvitati.length ; i++){
 }
 
 if(esito == true){
-    console.log('puoi entrare')
+    console.log('PUOI ENTRARE!')
 } else{
-    console.log('non puoi entrare')
+    console.log('ENTRA? ENTRA? IO NON PENSO PROPRIO')
 }
