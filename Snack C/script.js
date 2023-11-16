@@ -33,4 +33,11 @@ console.log(listaNumeriMaggiori)
 
     
 /* condizione: è maggiore? mostro il numero in console*/
+
+/* creo un numero di ciclo.
+creo un ciclo con (let i, i<numerodicilo; i++1)
+creo una condizione all'interno del cilo in cui aumento il numero di ciclo se una condizione non è soddisfatta
+ */
+
+
     
