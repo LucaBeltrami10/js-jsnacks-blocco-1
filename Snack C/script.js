@@ -7,9 +7,9 @@ const largerNum = parseInt(prompt('inserisci un numero composto da 4 numeri'))
 console.log(smallerNum)
 console.log(largerNum)
 
-inputPrint = smallerNum > largerNum
 
-const listaNumeriMaggiori = []
+
+/* const listaNumeriMaggiori = [] */
 
 /* if(smallerNum <= largerNum){
     smallerNum *= 2
@@ -40,5 +40,11 @@ creo una condizione all'interno del cilo in cui aumento il numero di ciclo se un
  */
 
 
+inputPrint = smallerNum > largerNum
 
+let numeroDiCicli = 2
+
+for (i=0; i<numeroDiCicli; i++){
+    
+}
     
