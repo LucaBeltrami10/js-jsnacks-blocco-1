@@ -6,7 +6,6 @@ let esito = false
 for (let i=0; i< listaInvitati.length ; i++){
     if(nomeUtente == listaInvitati[i]){
         esito = true
-        console.log(esito)
     }
 }
 
