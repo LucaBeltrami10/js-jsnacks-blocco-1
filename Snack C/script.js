@@ -42,9 +42,16 @@ creo una condizione all'interno del cilo in cui aumento il numero di ciclo se un
 
 inputPrint = smallerNum > largerNum
 
-let numeroDiCicli = 2
+let numeroDiCicli = 1
 
 for (i=0; i<numeroDiCicli; i++){
-    
+
+    if (smallerNum < largerNum){
+        numeroDiCicli += 1
+        smallerNum *= 2
+    } else if(largerNum < smallerNum){
+        console.log(`moltiplicando il numero minore per 2, il primo numero che soddisfa la condizione numerominore > numero maggiore è: ${smallerNum}`)
+        numeroDiCicli = 1
+    }
 }
     
